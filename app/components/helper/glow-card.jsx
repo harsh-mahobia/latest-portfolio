@@ -64,7 +64,7 @@ const GlowCard = ({ children , identifier}) => {
 
     // Cleanup event listener
     return () => {
-      document.body.removeEventListener('pointermove', UPDATE);
+      // document.body.removeEventListener('pointermove', UPDATE);
     };
   }, [identifier]);
 
