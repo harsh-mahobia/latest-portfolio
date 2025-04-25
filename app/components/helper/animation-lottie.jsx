@@ -1,13 +1,19 @@
 "use client"
 
+import Lottie from "lottie-react";
 
 const AnimationLottie = ({ animationPath, width }) => {
-  
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationPath,
+    style: {
+      width: '95%',
+    }
+  };
 
   return (
-    <div className="w-full h-full flex justify-center items-center">
-     Hello
-    </div>
+    <Lottie {...defaultOptions} />
   );
 };
 

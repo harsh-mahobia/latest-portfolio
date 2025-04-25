@@ -26,7 +26,7 @@ export const projectsData = [
         'Implemented a novel deep learning framework to enhance student model learning from a teacher network using knowledge distillation. Integrated semantic uncertainty and progressive modality injection techniques. Tested on CIFAR-10 with ResNet-18 as the teacher and a custom CNN as the student model.',
       tools: ['PyTorch', 'ResNet', 'CNN', 'CIFAR-10'],
       role: 'AI Researcher',
-      code: '',
+      code: 'www.github.com/harsh-mahobia/Adaptive-Knowledge-Distillation',
       demo: '',
     },
     {
