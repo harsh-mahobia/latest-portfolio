@@ -1,4 +1,7 @@
+'use client'
+
 import { GoogleTagManager } from "@next/third-parties/google";
+
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -9,11 +12,7 @@ import "./css/card.scss";
 import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Portfolio - Harsh Mahobia",
-  description:
-    "This is the portfolio of Harsh Mahobia. I am a Aspiring Software Engineer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
-};
+
 
 export default function RootLayout({ children }) {
   return (
